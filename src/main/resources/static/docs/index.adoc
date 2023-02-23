@@ -1,0 +1,53 @@
+ifndef::snippets[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+:site-url: /build/asciidoc/html5/
+
+= 제목
+
+****
+WARNING: 경고....
+****
+
+[[introduction]]
+== 소개
+
+[[introduction]]
+== 서비스 환경
+
+|===
+| 환경 | URI
+
+| 개발
+| <http://127.0.0.1:8888>
+
+| 운영
+| <http://localhost:8888>
+|===
+
+ifndef::snippet[]
+:snippet: ../../../build/generated-snippets
+endif::[]
+
+== UserController
+=== 회원 조회
+.curl-request
+include::{snippets}/user-controller-test/get-user-info/curl-request.adoc[]
+
+.http-request
+include::{snippets}/user-controller-test/get-user-info/http-request.adoc[]
+
+.http-response
+include::{snippets}/user-controller-test/get-user-info/http-response.adoc[]
+
+.response-body
+include::{snippets}/user-controller-test/get-user-info/response-body.adoc[]
+
+.response-response
+include::{snippets}/user-controller-test/get-user-info/response-fields.adoc[]

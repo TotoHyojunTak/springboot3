@@ -1,0 +1,46 @@
+
+profiles:
+  now: local
+
+server:
+  shutdown: graceful
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+  tomcat:
+    uri-encoding: UTF-8
+  port: 8888 # 9999
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  application:
+    name: springboot3
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    username: boot3
+    password: boot3
+    hikari:
+      connection-timeout: 50000
+    url: jdbc:log4jdbc:mysql://localhost:3306/boot3?characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&serverTimezone=Asia/Seoul
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    defer-datasource-initialization: true
+    open-in-view: true
+#  session:
+#    storage-type: redis
+#  redis:
+#    host: localhost
+#    port: 6379
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: sample-group
