@@ -9,10 +9,10 @@ endif::[]
 :sectlinks:
 :site-url: /build/asciidoc/html5/
 
-= 제목
+= Springboot 3 Back-end API
 
 ****
-WARNING: 경고....
+Introduction : Springboot 3 Back-end API
 ****
 
 [[introduction]]

@@ -56,6 +56,16 @@ public class SwaggerConfig {
                 .build();
     }
 
+    @Bean // Redis Ranking API (Sample)
+    public GroupedOpenApi redisRankingApi(OperationCustomizer addGlobalHeader) {
+        String[] paths = {"/redis/**"};
+        return GroupedOpenApi.builder()
+                .group("REDIS API")
+                .pathsToMatch(paths)
+                .addOperationCustomizer(addGlobalHeader)
+                .build();
+    }
+
 
 
     @Bean // Global Parameter

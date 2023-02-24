@@ -17,7 +17,7 @@ plugins {
 }
 
 group = 'com'
-version = '0.0.1-SNAPSHOT'
+version = '1.0.0'
 sourceCompatibility = '17'
 
 configurations {
@@ -65,6 +65,10 @@ dependencies {
     // Kafka
     implementation 'org.springframework.kafka:spring-kafka'
 
+    // Spring Redis
+    implementation 'org.springframework.session:spring-session-data-redis'
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+
     // openapi
     implementation 'org.springdoc:springdoc-openapi-starter-common:2.0.2'
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
@@ -76,25 +80,21 @@ dependencies {
     implementation 'io.micrometer:micrometer-registry-prometheus'
 
     // Spring RestDocs
-    testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc' // (5)
+    testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc'
     // mockmvc에 Spring REST Docs 추가를 위한 라이브러리
     asciidoctorExtensions 'org.springframework.restdocs:spring-restdocs-asciidoctor'
     // *.adoc 파일의 {snippets}를 자동으로 설정
 
 }
 
-tasks.named('test') {
-    useJUnitPlatform()
-}
-
-test {
-    useJUnitPlatform()
+test { // :test task 실행시 API문서 생성 Snippet 경로 설정
     outputs.dir snippetsDir
+    useJUnitPlatform()
 }
 
 
 // restdocs 시작
-tasks.named('asciidoctor') { // :asciidoctor task 실행시 Asciidoctor 기능 사용을 위한 설정
+asciidoctor { // :asciidoctor task 실행시 Asciidoctor 기능 사용을 위한 설정
     configurations "asciidoctorExtensions"
     inputs.dir snippetsDir
     dependsOn test
@@ -104,7 +104,10 @@ tasks.named('asciidoctor') { // :asciidoctor task 실행시 Asciidoctor 기능 �
 // 복사된 index.html은 API 문서를 <외부에> 저장하기 위한 용도로 사용
 task copyDocument(type: Copy) {
     dependsOn asciidoctor // :asciidoctor task가 실행된 후에 task가 실행되도록 의존성 설정
-    from file("${asciidoctor.outputDir}") // 설정 경로에 생성되는 index.html 복사
+
+    println "asciidoctor output: ${asciidoctor.outputDir}"
+
+    // from file("build/asciidoc/html5/") // 설정 경로에 생성되는 index.html 복사
     into file("src/main/resources/static/docs") // 해당 경로에 index.html 붙여넣기
 }
 
@@ -116,45 +119,14 @@ bootJar { // 앱 시행 파일이 생성하는 :bootJar task 설정
     dependsOn copyDocument // :bootJar task 전에 :copyDocument task 가 먼저 실행되도록 의존성 설정
     // Asciidoctor가 생성하는 index.html을 <Jar 파일 안>에 추가
     // 따라서 웹 브라우저에 접속(http://localhost:8080/docs/index.html)후 API 문서 확인 가능
-    from ("${asciidoctor.outputDir}") {
-        into 'static/docs'
+
+    copy {
+        // src/docs/asciidoc == from 경로
+        from ("${asciidoctor.outputDir}/html5") { // gradle은 src/docs/asciidoc 에 메인 adoc생성!
+            into 'static/docs' // asciidoctor로 만든 문서는 static/docs 디렉토리로.!
+        }
     }
 }
-
-//test {
-//    outputs.dir snippetsDir
-//}
-//
-//asciidoctor {
-//    dependsOn test
-//    configurations 'asciidoctorExtensions'
-//    inputs.dir snippetsDir
-//
-//}
-//
-//task copyDocument(type: Copy) {
-//    dependsOn asciidoctor
-//
-//    from file("build/asciidoc/html5/")
-//    into file("src/main/resources/static/docs")
-//}
-//
-//bootJar { // 앱 시행 파일이 생성하는 :bootJar task 설정
-//    dependsOn copyDocument // :bootJar task 전에 :copyDocument task 가 먼저 실행되도록 의존성 설정
-//    // Asciidoctor가 생성하는 index.html을 <Jar 파일 안>에 추가
-//    // 따라서 웹 브라우저에 접속(http://localhost:8080/docs/index.html)후 API 문서 확인 가능
-//    from ("${asciidoctor.outputDir}") {
-//        into 'static/docs'
-//    }
-//}
-//
-//
-//
-//build {
-//    dependsOn copyDocument
-//}
-// restdocs 종료
-
 
 compileJava{
     dependsOn clean

@@ -1,23 +1,22 @@
 package com.boot3.controller;
 
 import com.boot3.data.dto.request.UserRecordReqDTO;
-import com.boot3.data.dto.request.UserReqDTO;
 import com.boot3.data.dto.response.UserDTO;
 import com.boot3.data.dto.response.UserRecordDTO;
-import com.boot3.data.mapstruct.UserMapper;
-import com.boot3.data.repository.UserRepository;
 import com.boot3.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
+@RequestMapping("/user")
 @Tag(name="User Controller", description="User Controller 구현하기")
 public class UserController {
 

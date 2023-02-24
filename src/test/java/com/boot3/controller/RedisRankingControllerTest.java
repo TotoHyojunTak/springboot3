@@ -1,9 +1,8 @@
 package com.boot3.controller;
 
-import com.boot3.service.UserService;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.restdocs.AutoConfigureRestDocs;
@@ -15,8 +14,8 @@ import org.springframework.restdocs.mockmvc.RestDocumentationRequestBuilders;
 import org.springframework.restdocs.payload.JsonFieldType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
-
-import java.util.List;
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.util.MultiValueMap;
 
 import static org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.document;
 import static org.springframework.restdocs.mockmvc.RestDocumentationRequestBuilders.get;
@@ -31,7 +30,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 @AutoConfigureRestDocs(uriScheme = "http", uriHost = "localhost:8888/apidocs")
-class UserControllerTest {
+class RedisRankingControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
@@ -39,48 +38,87 @@ class UserControllerTest {
     private ObjectMapper objectMapper;
 
     @Autowired
-    private UserService userService;
+    private RedisRankingController redisRankingController;
 
-//    @BeforeEach
-//    public void setUpData(){
-//        userService.saveTestUser();
-//    }
+    @BeforeEach
+    public void setUpData(){
+        redisRankingController.generateData();
+    }
 
     @Test
-    @DisplayName("User List Test")
     @Disabled
-    public void getUserList() throws Exception {
+    public void getTopRankTest() throws Exception {
+
+        //given
+        MultiValueMap<String, String> p = new LinkedMultiValueMap<>();
+        p.add("limit", "50");
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("region_language", "KO_KR");
 
         // when
-        ResultActions resultActions = mockMvc.perform(get("/user")
-                .contentType(MediaType.APPLICATION_JSON)
-                .accept(MediaType.APPLICATION_JSON))
-                .andDo(print());
+        ResultActions resultActions = mockMvc.perform(get("/redis/rank")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .queryParams(p)
+                        .accept(MediaType.APPLICATION_JSON))
+                        .andDo(print());
 
         // then
         resultActions
-                .andExpect(status().isOk())
                 .andDo(
                         document("{class-name}/{method-name}",
+//                                responseFields(
+//                                        List.of(
+//                                              fieldWithPath("data").type(JsonFieldType.ARRAY).description("DATA").ignored()
+//                                        )
+//                                )
                                 responseFields(
-                                        List.of(
-                                                fieldWithPath("data").type(JsonFieldType.ARRAY).description("DATA").ignored()
-                                            , fieldWithPath("data[].email").type(JsonFieldType.STRING).description("이메일").ignored()
-                                            , fieldWithPath("data[].name").type(JsonFieldType.STRING).description("아이디").ignored()
-                                            , fieldWithPath("data[].pwd").type(JsonFieldType.STRING).description("암호화된 비밀번호").ignored()
-                                            , fieldWithPath("data[].userId").type(JsonFieldType.STRING).description("사용자 아이디").ignored()
-                                            , fieldWithPath("data[].createdDate").type(JsonFieldType.VARIES).description("생성일자").ignored()
-                                        )
+                                        fieldWithPath("data").type(JsonFieldType.ARRAY).description("결과 데이터")
                                 )
                         )
                 )
-        ;
-
+                .andExpect(status().isOk());
 
     }
 
     @Test
-    @DisplayName("User Info Test")
+    @Disabled
+    public void getUserRankingTest() throws Exception {
+
+        //given
+        MultiValueMap<String, String> p = new LinkedMultiValueMap<>();
+        p.add("userId", "user_59659");
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("region_language", "KO_KR");
+
+        // when
+        ResultActions resultActions = mockMvc.perform(get("/redis/rank/{userId}")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .queryParams(p)
+                        .accept(MediaType.APPLICATION_JSON))
+                .andDo(print());
+
+        // then
+        resultActions
+                .andDo(
+                        document("{class-name}/{method-name}",
+//                                responseFields(
+//                                        List.of(
+//                                              fieldWithPath("data").type(JsonFieldType.ARRAY).description("DATA").ignored()
+//                                        )
+//                                )
+                                responseFields(
+                                        fieldWithPath("data").type(JsonFieldType.ARRAY).description("결과 데이터")
+                                )
+                        )
+                )
+                .andExpect(status().isOk());
+
+    }
+
+    @Test
+    @Disabled
     public void getUserInfo() throws Exception {
         //given
         String userId = "thj0309";
