@@ -11,6 +11,7 @@ import com.boot3.data.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
@@ -35,5 +36,14 @@ public class UserService {
         UserEntity userEntity = UserMapper.INSTANCE.toEntity(dto);
 
         userRepository.save(userEntity);
+    }
+
+    // 임시 데이터 생성하기
+    public void saveTestUser() {
+
+        for (int i = 0; i < 10; i++){
+            UserEntity newData = new UserEntity("temp_"+i, "temp_"+i+"@naver.com", "temp_"+i, "temp_"+i, LocalDateTime.of(2023, 2, i+1, 12, 12, 12));
+            userRepository.save(newData);
+        }
     }
 }

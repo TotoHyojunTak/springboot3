@@ -1,7 +1,9 @@
 package com.boot3.controller;
 
+import com.boot3.data.dto.request.UserSaveReqDTO;
 import com.boot3.service.UserService;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -15,16 +17,13 @@ import org.springframework.restdocs.mockmvc.RestDocumentationRequestBuilders;
 import org.springframework.restdocs.payload.JsonFieldType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
-
-import java.util.List;
+import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 
 import static org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.document;
-import static org.springframework.restdocs.mockmvc.RestDocumentationRequestBuilders.get;
-import static org.springframework.restdocs.payload.PayloadDocumentation.fieldWithPath;
-import static org.springframework.restdocs.payload.PayloadDocumentation.responseFields;
+import static org.springframework.restdocs.payload.PayloadDocumentation.*;
 import static org.springframework.restdocs.request.RequestDocumentation.parameterWithName;
 import static org.springframework.restdocs.request.RequestDocumentation.pathParameters;
-import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 
@@ -41,61 +40,53 @@ class UserControllerTest {
     @Autowired
     private UserService userService;
 
-//    @BeforeEach
-//    public void setUpData(){
-//        userService.saveTestUser();
-//    }
+    @BeforeEach
+    public void setUpData(){
+        userService.saveTestUser();
+    }
 
     @Test
     @DisplayName("User List Test")
-    @Disabled
-    public void getUserList() throws Exception {
+    public void getUserListTest() throws Exception {
+
+        // given
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("region_language", "KO_KR");
 
         // when
-        ResultActions resultActions = mockMvc.perform(get("/user")
-                .contentType(MediaType.APPLICATION_JSON)
-                .accept(MediaType.APPLICATION_JSON))
-                .andDo(print());
+        ResultActions resultActions = mockMvc.perform(RestDocumentationRequestBuilders.get("/user/user")
+                .headers(headers)
+                .accept(MediaType.APPLICATION_JSON)
+                ).andExpect(status().isOk());
 
         // then
         resultActions
-                .andExpect(status().isOk())
                 .andDo(
                         document("{class-name}/{method-name}",
                                 responseFields(
-                                        List.of(
-                                                fieldWithPath("data").type(JsonFieldType.ARRAY).description("DATA").ignored()
-                                            , fieldWithPath("data[].email").type(JsonFieldType.STRING).description("이메일").ignored()
-                                            , fieldWithPath("data[].name").type(JsonFieldType.STRING).description("아이디").ignored()
-                                            , fieldWithPath("data[].pwd").type(JsonFieldType.STRING).description("암호화된 비밀번호").ignored()
-                                            , fieldWithPath("data[].userId").type(JsonFieldType.STRING).description("사용자 아이디").ignored()
-                                            , fieldWithPath("data[].createdDate").type(JsonFieldType.VARIES).description("생성일자").ignored()
-                                        )
+                                        fieldWithPath("[].userId").type(JsonFieldType.STRING).description("사용자 아이디")
+                                        , fieldWithPath("[].name").type(JsonFieldType.STRING).description("아이디")
+                                        , fieldWithPath("[].email").type(JsonFieldType.STRING).description("이메일")
+                                        , fieldWithPath("[].pwd").type(JsonFieldType.STRING).description("비밀번호")
+                                        , fieldWithPath("[].createdDate").type(JsonFieldType.VARIES).description("비밀번호")
                                 )
                         )
-                )
-        ;
-
-
+                );
     }
 
     @Test
     @DisplayName("User Info Test")
-    public void getUserInfo() throws Exception {
+    public void getUserInfoTest() throws Exception {
         //given
-        String userId = "thj0309";
-
-        //given
+        String userId = "temp_1";
         HttpHeaders headers = new HttpHeaders();
         headers.add("region_language", "KO_KR");
-
 
         // when
         ResultActions resultActions = mockMvc.perform(RestDocumentationRequestBuilders.get("/user/user/{userId}", userId)
                         .headers(headers)
-                        //.queryParams(p)
                         .accept(MediaType.APPLICATION_JSON))
-                .andExpect(status().isOk());
+                ;
 
         // restDocs
         resultActions.andDo(document("{class-name}/{method-name}",
@@ -103,7 +94,6 @@ class UserControllerTest {
                                 parameterWithName("userId").description("사용자 ID")
                         ),
                         responseFields(
-                                // 개별
                                 fieldWithPath("userId").type(JsonFieldType.STRING).description("사용자 아이디")
                                 , fieldWithPath("name").type(JsonFieldType.STRING).description("아이디")
                                 , fieldWithPath("email").type(JsonFieldType.STRING).description("이메일")
@@ -116,34 +106,34 @@ class UserControllerTest {
     }
 
 
-//        ResultActions result = this.mockMvc.perform(
-//                RestDocumentationRequestBuilders.get("/user/{userId}", 1L)
-//        );
-//
-//        result.andExpect(status().isOk())
-//                .andDo(
-//                        document("select-user"
-//                                , getDocumentRequest()
-//                                , getDocumentResponse()
-//                                , pathParameters(
-//                                        parameterWithName("userId").description("사용자 아이디")
-//                                )
-//                                , responseFields(
-//                                        fieldWithPath("userId").type(JsonFieldType.NUMBER).description("사용자 아이디")
-//                                        , fieldWithPath("name").type(JsonFieldType.STRING).description("아이디")
-//                                        , fieldWithPath("email").type(JsonFieldType.STRING).description("이메일")
-//                                        , fieldWithPath("createdDate").type(JsonFieldType.STRING).description("생성일자")
-//                                )
-//                        ))
-//                .andDo(print());
+    @Test
+    @DisplayName("User Save - 중복 여부 테스트")
+    @Disabled
+    public void saveUserTest_Duplicate() throws Exception {
+        //given
+        String userId = "thj0309";
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("region_language", "KO_KR");
 
+        UserSaveReqDTO userSaveReqDTO = new UserSaveReqDTO();
+        userSaveReqDTO.setUserId("thj0309");
+        userSaveReqDTO.setName("thj0309");
+        userSaveReqDTO.setPwd("thj0309");
+        userSaveReqDTO.setEmail("thj0309@hotmail.com");
 
-//    @Test
-//    public void saveUser() throws Exception{
-//        mockMvc.perform(
-//                        post("/users")
-//                )
-//                //.andDo(print())
-//                .andExpect(status().isOk());
-//    }
+        // when
+        ResultActions resultActions = mockMvc.perform(RestDocumentationRequestBuilders.post("/user/user")
+                        .headers(headers)
+                        .contentType(MediaType.APPLICATION_JSON_UTF8)
+                        .content(objectMapper.writeValueAsString(userSaveReqDTO))
+                        .accept(MediaType.APPLICATION_JSON))
+                ;
+
+        // restDocs
+        resultActions
+                //.andExpect(jsonPath("$.userId").value("thj0309"))
+                .andDo(MockMvcResultHandlers.print());
+
+    }
+
 }

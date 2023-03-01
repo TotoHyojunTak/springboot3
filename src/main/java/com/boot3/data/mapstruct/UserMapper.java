@@ -22,6 +22,7 @@ public interface UserMapper {
 
 
     @Mapping(target="encryptedPwd", expression="java(dto.getPwd())")
+    @Mapping(target="createdDate", expression="java(java.time.LocalDateTime.now())")
     UserEntity toEntity(UserSaveReqDTO dto);
 
 

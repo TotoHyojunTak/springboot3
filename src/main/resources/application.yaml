@@ -30,11 +30,15 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
     properties:
       hibernate:
         format_sql: true
     defer-datasource-initialization: true
     open-in-view: true
+    show_sql: true
+    format_sql: true
+
 #  session:
 #    storage-type: redis
 #  redis:
@@ -44,3 +48,13 @@ spring:
     bootstrap-servers: localhost:9092
     consumer:
       group-id: sample-group
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        # exclude: threaddump, heapdump
+  endpoint:
+    health:
+      show-details: always

@@ -1,16 +1,14 @@
 package com.boot3.controller;
 
 import com.boot3.data.dto.request.UserRecordReqDTO;
+import com.boot3.data.dto.request.UserSaveReqDTO;
 import com.boot3.data.dto.response.UserDTO;
 import com.boot3.data.dto.response.UserRecordDTO;
 import com.boot3.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -43,5 +41,12 @@ public class UserController {
 
         UserRecordReqDTO dto = new UserRecordReqDTO(userId);
         return userService.userInfoByQuerydsl(dto);
+    }
+
+
+    @PostMapping("/user")
+    @Operation(description = "사용자 등록하기")
+    public void saveUserInfo(@RequestBody UserSaveReqDTO userSaveReqDTO){
+        userService.saveUserInfo(userSaveReqDTO);
     }
 }

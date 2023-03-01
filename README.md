@@ -21,9 +21,9 @@
 - Spring Batch (구현 예정)
 - Spring Cloud (구현 예정)
 - kubernetes (구현 예정)
+- multi database connection (구현 예정)
 
 
-작업 폴더 : /git/boot3 
 
 # Swagger
 http://localhost:8888/swagger-ui/index.html

@@ -2,12 +2,9 @@ package com.boot3.data.repository;
 
 import com.boot3.data.dto.request.UserRecordReqDTO;
 import com.boot3.data.dto.response.UserDTO;
-import com.boot3.data.dto.response.UserRecordDTO;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
-
-import java.time.LocalDateTime;
 
 import static com.boot3.data.entity.QUserEntity.userEntity;
 

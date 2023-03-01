@@ -85,6 +85,13 @@ dependencies {
     asciidoctorExtensions 'org.springframework.restdocs:spring-restdocs-asciidoctor'
     // *.adoc 파일의 {snippets}를 자동으로 설정
 
+    // Spring Security
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    testImplementation 'org.springframework.security:spring-security-test'
+
+    // jwt
+    // implementation 'io.jsonwebtoken:jjwt'
+
 }
 
 test { // :test task 실행시 API문서 생성 Snippet 경로 설정
