@@ -1,0 +1,359 @@
+2023-02-27 10:22:21 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 68986 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:22:21 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:22:21 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:22:24 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 2.972 seconds (process running for 3.473)
+2023-02-27 10:22:25 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting Boot3Application using Java 17.0.5 with PID 68997 (/Volumes/DATA/git/boot3/build/classes/java/main started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:22:25 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:22:25 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:22:26 [DEBUG] [GenericFilterBean.java]init(240) : Filter 'serverHttpObservationFilter' configured for use
+2023-02-27 10:22:28 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started Boot3Application in 2.795 seconds (process running for 2.979)
+2023-02-27 10:23:09 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 69089 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:23:09 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:23:09 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:23:12 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 2.876 seconds (process running for 3.394)
+2023-02-27 10:23:13 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting Boot3Application using Java 17.0.5 with PID 69098 (/Volumes/DATA/git/boot3/build/classes/java/main started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:23:13 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:23:13 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:23:15 [DEBUG] [GenericFilterBean.java]init(240) : Filter 'serverHttpObservationFilter' configured for use
+2023-02-27 10:23:16 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started Boot3Application in 3.086 seconds (process running for 3.269)
+2023-02-27 10:23:57 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 69187 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:23:57 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:23:57 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:24:00 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 3.147 seconds (process running for 3.696)
+2023-02-27 10:24:02 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting Boot3Application using Java 17.0.5 with PID 69197 (/Volumes/DATA/git/boot3/build/classes/java/main started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:24:02 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:24:02 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:24:04 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started Boot3Application in 2.821 seconds (process running for 3.002)
+2023-02-27 10:25:30 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 69373 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:25:30 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:25:30 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:25:33 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 2.674 seconds (process running for 3.212)
+2023-02-27 10:25:34 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting Boot3Application using Java 17.0.5 with PID 69382 (/Volumes/DATA/git/boot3/build/classes/java/main started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:25:34 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:25:34 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:25:36 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started Boot3Application in 2.585 seconds (process running for 2.761)
+2023-02-27 10:26:27 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 69502 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:26:27 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:26:27 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:26:28 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 69502 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:26:28 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:26:28 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:26:28 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 69502 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:26:28 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:26:28 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:26:28 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 69502 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:26:28 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:26:28 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:26:28 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 69502 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:26:28 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:26:28 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:27:04 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 69577 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:27:04 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:27:04 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:27:05 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 69577 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:27:05 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:27:05 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:27:05 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 69577 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:27:05 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:27:05 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:27:05 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 69577 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:27:05 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:27:05 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:27:05 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 69577 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:27:05 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:27:05 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:33:38 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 70373 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:33:38 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:33:38 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:33:39 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 70373 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:33:39 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:33:39 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:33:39 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 70373 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:33:39 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:33:39 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:33:39 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 70373 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:33:39 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:33:39 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:33:39 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 70373 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:33:39 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:33:39 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:35:12 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 70560 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:35:12 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:35:12 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:35:15 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 3.124 seconds (process running for 3.647)
+2023-02-27 10:35:16 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting Boot3Application using Java 17.0.5 with PID 70573 (/Volumes/DATA/git/boot3/build/classes/java/main started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:35:16 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:35:16 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:35:19 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started Boot3Application in 2.992 seconds (process running for 3.175)
+2023-02-27 10:40:50 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 71362 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:40:50 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:40:50 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:40:53 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 3.356 seconds (process running for 4.013)
+2023-02-27 10:52:52 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 72872 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:52:52 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:52:52 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:52:55 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 3.331 seconds (process running for 3.827)
+2023-02-27 10:53:30 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 72955 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:53:30 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:53:30 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:53:32 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 2.924 seconds (process running for 3.433)
+2023-02-27 10:53:34 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting Boot3Application using Java 17.0.5 with PID 72964 (/Volumes/DATA/git/boot3/build/classes/java/main started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:53:34 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:53:34 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:53:36 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started Boot3Application in 2.922 seconds (process running for 3.113)
+2023-02-27 10:55:49 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 73317 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:55:49 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:55:49 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:55:52 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 2.92 seconds (process running for 3.426)
+2023-02-27 10:55:53 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting Boot3Application using Java 17.0.5 with PID 73333 (/Volumes/DATA/git/boot3/build/classes/java/main started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 10:55:53 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 10:55:53 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 10:55:56 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started Boot3Application in 2.909 seconds (process running for 3.087)
+2023-02-27 11:08:47 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 74312 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 11:08:47 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 11:08:47 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 11:08:50 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 2.836 seconds (process running for 3.362)
+2023-02-27 11:08:51 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting Boot3Application using Java 17.0.5 with PID 74322 (/Volumes/DATA/git/boot3/build/classes/java/main started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 11:08:51 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 11:08:51 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 11:08:54 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started Boot3Application in 3.073 seconds (process running for 3.267)
+2023-02-27 12:36:01 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 78889 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 12:36:01 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 12:36:01 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 12:36:07 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 5.56 seconds (process running for 6.08)
+2023-02-27 12:36:09 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting Boot3Application using Java 17.0.5 with PID 78922 (/Volumes/DATA/git/boot3/build/classes/java/main started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 12:36:09 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 12:36:09 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 12:36:15 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started Boot3Application in 5.988 seconds (process running for 6.266)
+2023-02-27 13:00:07 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 83362 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 13:00:07 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 13:00:07 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 13:00:12 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 5.166 seconds (process running for 7.053)
+2023-02-27 13:00:14 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting Boot3Application using Java 17.0.5 with PID 83394 (/Volumes/DATA/git/boot3/build/classes/java/main started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 13:00:14 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 13:00:14 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 13:00:20 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started Boot3Application in 6.563 seconds (process running for 6.81)
+2023-02-27 13:28:15 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 89074 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 13:28:15 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 13:28:15 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 13:28:21 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.177 seconds (process running for 6.745)
+2023-02-27 13:29:39 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 89317 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 13:29:39 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 13:29:39 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 13:29:43 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 3.462 seconds (process running for 3.929)
+2023-02-27 13:37:31 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 90763 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 13:37:31 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 13:37:31 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 13:37:36 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 5.897 seconds (process running for 6.534)
+2023-02-27 13:40:38 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 91358 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 13:40:38 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 13:40:38 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 13:40:45 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 7.995 seconds (process running for 8.635)
+2023-02-27 13:49:06 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 92966 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 13:49:06 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 13:49:06 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 13:49:11 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 5.909 seconds (process running for 6.638)
+2023-02-27 13:51:54 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 93493 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 13:51:54 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 13:51:54 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 13:52:01 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.784 seconds (process running for 7.315)
+2023-02-27 13:52:21 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 93573 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 13:52:21 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 13:52:21 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 13:52:28 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 7.563 seconds (process running for 8.063)
+2023-02-27 13:53:45 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 93818 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 13:53:45 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 13:53:45 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 13:53:51 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 5.612 seconds (process running for 6.399)
+2023-02-27 13:58:23 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 94633 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 13:58:23 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 13:58:23 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 13:58:27 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 3.732 seconds (process running for 4.366)
+2023-02-27 13:58:45 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 94703 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 13:58:45 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 13:58:45 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 13:58:51 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.118 seconds (process running for 6.826)
+2023-02-27 13:59:37 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 94859 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 13:59:37 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 13:59:37 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 13:59:40 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 3.309 seconds (process running for 3.841)
+2023-02-27 14:00:09 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 94952 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:00:09 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:00:09 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:00:15 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.082 seconds (process running for 6.738)
+2023-02-27 14:00:34 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 95026 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:00:34 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:00:34 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:00:41 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.749 seconds (process running for 7.425)
+2023-02-27 14:01:28 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 95181 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:01:28 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:01:28 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:01:33 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.134 seconds (process running for 6.662)
+2023-02-27 14:02:41 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 95414 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:02:41 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:02:41 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:02:44 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 3.428 seconds (process running for 4.014)
+2023-02-27 14:15:33 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 97726 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:15:33 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:15:33 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:15:36 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 2.904 seconds (process running for 3.518)
+2023-02-27 14:19:53 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 99007 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:19:53 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:19:53 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:19:56 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 3.119 seconds (process running for 3.64)
+2023-02-27 14:20:48 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 99173 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:20:48 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:20:48 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:20:50 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 2.933 seconds (process running for 3.518)
+2023-02-27 14:22:08 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 99557 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:22:08 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:22:08 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:22:14 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 6.389 seconds (process running for 7.675)
+2023-02-27 14:25:17 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 429 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:25:17 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:25:17 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:25:19 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 3.085 seconds (process running for 3.633)
+2023-02-27 14:26:00 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 571 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:26:00 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:26:00 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:26:04 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 3.616 seconds (process running for 5.266)
+2023-02-27 14:26:27 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 675 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:26:27 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:26:27 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:26:33 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.134 seconds (process running for 6.777)
+2023-02-27 14:28:48 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 1139 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:28:48 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:28:48 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:28:52 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 3.42 seconds (process running for 3.938)
+2023-02-27 14:29:33 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 1289 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:29:33 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:29:33 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:29:39 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.572 seconds (process running for 7.104)
+2023-02-27 14:30:20 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 1438 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:30:20 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:30:20 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:30:26 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.398 seconds (process running for 7.018)
+2023-02-27 14:32:47 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 1907 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:32:47 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:32:47 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:32:50 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 3.349 seconds (process running for 3.913)
+2023-02-27 14:33:10 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 1983 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:33:10 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:33:10 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:33:16 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.717 seconds (process running for 7.254)
+2023-02-27 14:33:53 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 2124 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 14:33:53 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 14:33:53 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 14:33:56 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 3.48 seconds (process running for 3.95)
+2023-02-27 15:12:41 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 5183 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 15:12:41 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 15:12:41 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 15:12:47 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.083 seconds (process running for 6.738)
+2023-02-27 15:13:57 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 5436 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 15:13:57 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 15:13:57 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 15:14:01 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 3.665 seconds (process running for 4.164)
+2023-02-27 15:14:12 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 5488 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 15:14:12 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 15:14:12 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 15:14:18 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.718 seconds (process running for 7.263)
+2023-02-27 15:14:40 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 5579 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 15:14:40 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 15:14:40 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 15:14:44 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 4.898 seconds (process running for 6.045)
+2023-02-27 15:14:46 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting Boot3Application using Java 17.0.5 with PID 5602 (/Volumes/DATA/git/boot3/build/classes/java/main started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 15:14:46 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 15:14:46 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 15:14:48 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started Boot3Application in 2.974 seconds (process running for 3.165)
+2023-02-27 15:29:24 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 8554 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 15:29:24 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 15:29:24 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 15:29:30 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 7.973 seconds (process running for 8.724)
+2023-02-27 15:36:18 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 9900 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 15:36:18 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 15:36:18 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 15:36:22 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 3.97 seconds (process running for 5.241)
+2023-02-27 15:36:23 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting Boot3Application using Java 17.0.5 with PID 9918 (/Volumes/DATA/git/boot3/build/classes/java/main started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 15:36:23 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 15:36:23 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 15:36:26 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started Boot3Application in 3.202 seconds (process running for 3.409)
+2023-02-27 15:53:08 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 13322 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 15:53:08 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 15:53:08 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 15:53:14 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.459 seconds (process running for 7.039)
+2023-02-27 15:55:02 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 13688 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 15:55:02 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 15:55:02 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 15:55:06 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 3.383 seconds (process running for 3.876)
+2023-02-27 15:56:25 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 13949 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 15:56:25 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 15:56:25 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 15:56:32 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 7.314 seconds (process running for 7.883)
+2023-02-27 15:58:48 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 14426 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 15:58:48 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 15:58:48 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 15:58:55 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 8.18 seconds (process running for 8.791)
+2023-02-27 16:00:24 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 14749 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 16:00:24 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 16:00:24 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 16:00:30 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 6.205 seconds (process running for 7.347)
+2023-02-27 16:06:04 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 15922 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 16:06:04 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 16:06:04 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 16:06:07 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 2.942 seconds (process running for 3.507)
+2023-02-27 16:06:52 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 16082 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 16:06:52 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 16:06:52 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 16:06:55 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 3.036 seconds (process running for 3.595)
+2023-02-27 16:08:12 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 16359 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 16:08:12 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 16:08:12 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 16:08:18 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 5.856 seconds (process running for 6.48)
+2023-02-27 16:09:20 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 16577 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 16:09:20 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 16:09:20 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 16:09:27 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 8.091 seconds (process running for 8.851)
+2023-02-27 16:10:23 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 16772 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 16:10:23 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 16:10:23 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 16:10:30 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 7.332 seconds (process running for 7.916)
+2023-02-27 16:11:29 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 16988 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 16:11:29 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 16:11:29 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 16:11:36 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 7.499 seconds (process running for 8.531)
+2023-02-27 16:12:56 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 17276 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 16:12:56 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 16:12:56 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 16:13:02 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.405 seconds (process running for 6.998)
+2023-02-27 16:13:25 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 17373 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 16:13:25 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 16:13:25 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 16:13:31 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 7.137 seconds (process running for 7.697)
+2023-02-27 16:14:13 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 17547 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 16:14:13 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 16:14:13 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 16:14:17 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 4.916 seconds (process running for 5.571)
+2023-02-27 16:19:47 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 18641 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 16:19:47 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 16:19:47 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 16:19:53 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 6.621 seconds (process running for 7.259)
+2023-02-27 16:19:58 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting Boot3Application using Java 17.0.5 with PID 18683 (/Volumes/DATA/git/boot3/build/classes/java/main started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 16:19:58 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 16:19:58 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 16:20:05 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started Boot3Application in 7.236 seconds (process running for 7.846)
+2023-02-27 16:22:25 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 19217 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 16:22:25 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 16:22:25 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 16:22:32 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 6.753 seconds (process running for 7.428)
+2023-02-27 19:13:04 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 35492 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 19:13:04 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 19:13:04 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 19:13:07 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 3.489 seconds (process running for 4.062)
+2023-02-27 19:13:46 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 35643 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 19:13:46 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 19:13:46 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 19:13:49 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 3.256 seconds (process running for 3.734)
+2023-02-27 19:18:11 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting UserControllerTest using Java 17.0.5 with PID 36517 (started by totohyojuntak in /Volumes/DATA/git/boot3)
+2023-02-27 19:18:11 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-27 19:18:11 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
+2023-02-27 19:18:14 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started UserControllerTest in 3.913 seconds (process running for 4.429)
