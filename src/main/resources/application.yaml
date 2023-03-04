@@ -38,16 +38,21 @@ spring:
     open-in-view: true
     show_sql: true
     format_sql: true
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 100MB
+      max-request-size: 100MB
 
 #  session:
 #    storage-type: redis
 #  redis:
 #    host: localhost
 #    port: 6379
-  kafka:
-    bootstrap-servers: localhost:9092
-    consumer:
-      group-id: sample-group
+#  kafka:
+#    bootstrap-servers: localhost:9092
+#    consumer:
+#      group-id: sample-group
 
 management:
   endpoints:

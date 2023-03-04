@@ -92,6 +92,10 @@ dependencies {
     // jwt
     // implementation 'io.jsonwebtoken:jjwt'
 
+    // Excel Upload
+    implementation 'org.apache.poi:poi:5.2.3' // excel 2007 이전 버전 호환 (HSSFWorkbook, xls)
+    implementation 'org.apache.poi:poi-ooxml:5.2.3' // excel 2007 이후 버전 호환 (WSSFWorkbook, xlsx)
+
 }
 
 test { // :test task 실행시 API문서 생성 Snippet 경로 설정
