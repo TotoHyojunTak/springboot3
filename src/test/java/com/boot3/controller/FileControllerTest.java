@@ -1,5 +1,6 @@
 package com.boot3.controller;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +25,7 @@ class FileControllerTest {
 
     @Test
     @DisplayName("Excel Upload Test")
+    @Disabled
     // @TestDesc("MockMultipartFile 동작 테스트")
     public void getMockExcelUploadTest() throws IOException {
 

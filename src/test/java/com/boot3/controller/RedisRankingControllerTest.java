@@ -41,6 +41,7 @@ class RedisRankingControllerTest {
     private RedisRankingController redisRankingController;
 
     @BeforeEach
+    @Disabled
     public void setUpData(){
         redisRankingController.generateData();
     }

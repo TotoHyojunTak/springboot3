@@ -29,6 +29,25 @@ public class FileController {
 
     private final FileService fileService;
 
+    @GetMapping("/temp/{n}")
+    public void temp(@PathVariable int n){
+        //IntStream.rangeClosed(1, n).forEach(System.out::println);
+        System.gc();
+
+        if("1".equals("1")){
+            System.out.println("1");
+        }
+
+
+        /*
+        기존의 GC 알고리즘으로는 큰 메모리에서 좋은 성능(짧은 STW)을 낼 수 없기 때문에 이를 개선하기 위해 등장하였음.
+        G1 GC는 큰 Heap 메모리에서 짧은 GC 시간을 보장하는데 그 목적을 가지고 있다
+
+        기존 GC와는 다른 알고리즘을 가지고 있으며, 전체 heap 메모리 영역을 Region 이라는
+        */
+
+    }
+
     // 엑셀 다운로드
     @GetMapping("/excel/download")
     @Operation(description = "Excel Download")

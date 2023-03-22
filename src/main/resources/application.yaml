@@ -63,3 +63,18 @@ management:
   endpoint:
     health:
       show-details: always
+
+###########################################
+################### API ###################
+###########################################
+api:
+  kakao:
+    url: https://dapi.kakao.com
+    authorization: KakaoAK
+    key: a44497b0b4151ec0db211f5ae847b607
+    path: /v2/search/blog
+  naver:
+    url: https://openapi.naver.com
+    client-id: f522O2wr4C9VIqtAQsKU
+    client-secret: PEmAsMI4x1
+    path: /v1/search/blog.json

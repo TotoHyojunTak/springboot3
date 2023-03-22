@@ -22,6 +22,10 @@
 - Spring Cloud (구현 예정)
 - kubernetes (구현 예정)
 - multi database connection (구현 예정)
+- 외부와의 통신
+  - RestTemplate (구현 O, Deprectated)
+  - WebClient (구현 O)
+  - Feign Client (구현 예정)
 
 
 
