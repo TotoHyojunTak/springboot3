@@ -4,6 +4,7 @@ import com.boot3.common.data.dto.CommonResponseDTO;
 import com.boot3.data.dto.request.BlogRecordReqDTO;
 import com.boot3.data.dto.request.BlogReqDTO;
 import com.boot3.data.dto.response.BlogKakaoDTO;
+import com.boot3.infra.feign.KakaoFeignClient;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
@@ -31,6 +32,8 @@ import java.net.URI;
 public class KakaoClientController {
 
     private final RestTemplate restTemplate;
+
+    private final KakaoFeignClient kakaoFeignClient;
 
     @Value("${api.kakao.url}")
     private String url;
@@ -130,6 +133,17 @@ public class KakaoClientController {
                 .retrieve()
                 .bodyToMono(BlogKakaoDTO.KakaoResponse.class)
                 .block();
+
+        return CommonResponseDTO.of(result);
+    }
+
+
+    @GetMapping("/blog/kakao/search/feign")
+    @Operation(description = "카카오 블로그 조회 (feignclient)")
+    public CommonResponseDTO getKakaoBlogListByFeign(@NotNull @Valid BlogReqDTO request){
+
+        // Case. Feign
+        BlogKakaoDTO.KakaoResponse result = kakaoFeignClient.search(request.getQuery(), request.getSort(), request.getPage(), request.getSize());
 
         return CommonResponseDTO.of(result);
     }

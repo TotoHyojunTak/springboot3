@@ -1,6 +1,6 @@
 # Springboot 3 Backend API
 
-- Springboot 3.0.2
+- Springboot 3.0.4
   - Java JDK 17
 - Spring Data JPA
 - QueryDSL 5.0.0
@@ -19,14 +19,28 @@
 - Spring Redis
   - 단순 샘플 소스 및 데이터 추가
 - Spring Batch (구현 예정)
-- Spring Cloud (구현 예정)
+- Spring Cloud 
 - kubernetes (구현 예정)
 - multi database connection (구현 예정)
 - 외부와의 통신
-  - RestTemplate (구현 O, Deprectated)
-  - WebClient (구현 O)
-  - Feign Client (구현 예정)
+  - RestTemplate (Deprectated)
+    ```
+    GET http://localhost:8888/blog/naver/search/resttemplate?query=%EC%9C%A0%EB%9F%BD&sort=accuracy&page=1&size=10
 
+    GET http://localhost:8888/blog/kakao/search/resttemplate?query=%EC%9C%A0%EB%9F%BD&sort=accuracy&page=1&size=10
+    ```
+  - WebClient
+      ```
+    GET http://localhost:8888/blog/naver/search/webclient?query=%EC%9C%A0%EB%9F%BD&sort=accuracy&page=1&size=10
+    
+    GET http://localhost:8888/blog/kakao/search/webclient?query=%EC%9C%A0%EB%9F%BD&sort=accuracy&page=1&size=10
+    ```
+  - Feign Client
+    ```
+    GET http://localhost:8888/blog/naver/search/feign?query=%EC%9C%A0%EB%9F%BD&sort=accuracy&page=1&size=10
+    
+    GET http://localhost:8888/blog/kakao/search/feign?query=%EC%9C%A0%EB%9F%BD&sort=accuracy&page=1&size=10
+    ```
 
 
 # Swagger

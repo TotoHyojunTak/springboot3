@@ -4,6 +4,7 @@ import com.boot3.common.data.dto.CommonResponseDTO;
 import com.boot3.data.dto.request.BlogRecordReqDTO;
 import com.boot3.data.dto.request.BlogReqDTO;
 import com.boot3.data.dto.response.BlogNaverDTO;
+import com.boot3.infra.feign.NaverFeignClient;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
@@ -31,6 +32,8 @@ import java.time.Duration;
 @Tag(name="Naver API Controller", description="Naver API Controller 구현하기")
 public class NaverClientController {
     private final RestTemplate restTemplate;
+
+    private final NaverFeignClient naverFeignClient;
 
     @Value("${api.naver.url}")
     private String url;
@@ -102,8 +105,7 @@ public class NaverClientController {
                 .build()
                 ;
 
-        final ResponseEntity<BlogNaverDTO.NaverResponse> resEntity = restTemplate.exchange(
-                res, BlogNaverDTO.NaverResponse.class);
+        final ResponseEntity<BlogNaverDTO.NaverResponse> resEntity = restTemplate.exchange(res, BlogNaverDTO.NaverResponse.class);
         log.debug("uri={}, res={}, statusCode={}, responseBody={}", uri, res, resEntity.getStatusCode(), resEntity.getBody());
 
         if (!resEntity.getStatusCode().is2xxSuccessful()) {
@@ -145,6 +147,16 @@ public class NaverClientController {
                 .bodyToMono(BlogNaverDTO.NaverResponse.class)
                 .block()
                 ;
+
+        return CommonResponseDTO.of(result); // webclient
+    }
+
+    @GetMapping("/blog/naver/search/feign")
+    @Operation(description = "네이버 블로그 조회 (feignclient)")
+    public CommonResponseDTO getNaverBlogListByFeign(@NotNull @Valid BlogReqDTO request){
+
+        // CASE. WebClient
+        BlogNaverDTO.NaverResponse result = naverFeignClient.search(request.getQuery(), request.getSort() == "accuracy"? "sim": "date", request.getPage(), request.getSize());
 
         return CommonResponseDTO.of(result); // webclient
     }

@@ -72,6 +72,7 @@ api:
     url: https://dapi.kakao.com
     authorization: KakaoAK
     key: a44497b0b4151ec0db211f5ae847b607
+    aukey: KakaoAK a44497b0b4151ec0db211f5ae847b607
     path: /v2/search/blog
   naver:
     url: https://openapi.naver.com
