@@ -1,5 +1,5 @@
 {
-    "name": "Graphql-fruits",
+    "name": "Graphql",
     "schemaPath": "src/main/resources/graphql/schema.graphqls",
     "extensions": {}
 }

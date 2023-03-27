@@ -19,6 +19,14 @@ public class CommonResponseDTO<T> {
                 .build();
     }
 
+    public static <T> CommonResponseDTO of(T data, ResCode resCode) {
+        return CommonResponseDTO.builder()
+                .code(resCode.getCode())
+                .message(resCode.getMessage())
+                .data(data)
+                .build();
+    }
+
     public static <T> CommonResponseDTO of(ResCode resCode) {
         return CommonResponseDTO.builder()
                 .code(resCode.getCode())
