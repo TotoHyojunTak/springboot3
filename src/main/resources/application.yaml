@@ -44,6 +44,33 @@ spring:
       max-file-size: 100MB
       max-request-size: 100MB
 
+  graphql:
+    path: /graphql
+    graphiql:
+      path: /graphiql
+      enabled: true
+    schema:
+      locations: classpath:graphql/**/
+      file-extensions: .graphqls,.gqls
+      introspection:
+        enabled: true
+        printer:
+          enabled: true
+    websocket:
+      connection-init-timeout: 60s
+      path:
+    rsocket:
+      mapping:
+    cors:
+      allow-credentials:
+      allowed-headers:
+      allowed-methods:
+      allowed-origin-patterns:
+      allowed-origins:
+      exposed-headers:
+      max-age: 1800s
+
+
 #  session:
 #    storage-type: redis
 #  redis:

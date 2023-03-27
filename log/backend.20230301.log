@@ -1,8 +1,0 @@
-2023-03-01 22:03:53 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting RedisRankingControllerTest using Java 17.0.5 with PID 22991 (started by totohyojuntak in /Volumes/DATA/git/boot3)
-2023-03-01 22:03:53 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
-2023-03-01 22:03:53 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
-2023-03-01 22:03:56 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started RedisRankingControllerTest in 3.152 seconds (process running for 3.812)
-2023-03-01 22:03:58 [INFO ] [StartupInfoLogger.java]logStarting(51) : Starting Boot3Application using Java 17.0.5 with PID 23009 (/Volumes/DATA/git/boot3/build/classes/java/main started by totohyojuntak in /Volumes/DATA/git/boot3)
-2023-03-01 22:03:58 [DEBUG] [StartupInfoLogger.java]logStarting(52) : Running with Spring Boot v3.0.2, Spring v6.0.4
-2023-03-01 22:03:58 [INFO ] [SpringApplication.java]logStartupProfileInfo(636) : The following 1 profile is active: "local"
-2023-03-01 22:04:01 [INFO ] [StartupInfoLogger.java]logStarted(57) : Started Boot3Application in 3.141 seconds (process running for 3.341)

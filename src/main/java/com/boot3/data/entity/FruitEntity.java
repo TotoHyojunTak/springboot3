@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 @ToString
 @Getter
 @Entity
-@Table(name = "TB_FRIUT")
+@Table(name = "TB_FRUIT")
 public class FruitEntity {
     @Id
     @Column(nullable = false, unique = true)

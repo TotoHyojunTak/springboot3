@@ -1,6 +1,6 @@
 package com.boot3.controller;
 
-import com.boot3.data.dto.response.FruitRecordDTO;
+import com.boot3.data.dto.response.FruitDTO;
 import com.boot3.data.entity.FruitEntity;
 import com.boot3.service.FileService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -53,7 +53,7 @@ public class FileController {
     @Operation(description = "Excel Download")
     public void downloadExcel(HttpServletResponse response) throws IOException {
         log.debug("Excel Download 기능");
-        List<FruitRecordDTO> data = fileService.downloadExcel();
+        List<FruitDTO> data = fileService.downloadExcel();
 
         XSSFWorkbook wb = new XSSFWorkbook();
         XSSFSheet sheet = wb.createSheet("첫번째 시트");
@@ -80,17 +80,17 @@ public class FileController {
         for (int i = 0; i < data.size(); i++) {
             row = sheet.createRow(rowNum++);
             cell = row.createCell(0);
-            cell.setCellValue(data.get(i).seq());
+            cell.setCellValue(data.get(i).getSeq());
             cell = row.createCell(1);
-            cell.setCellValue(data.get(i).name());
+            cell.setCellValue(data.get(i).getName());
             cell = row.createCell(2);
-            cell.setCellValue(data.get(i).season());
+            cell.setCellValue(data.get(i).getSeason());
             cell = row.createCell(3);
-            cell.setCellValue(data.get(i).price());
+            cell.setCellValue(data.get(i).getPrice());
             cell = row.createCell(4);
-            cell.setCellValue(data.get(i).region());
+            cell.setCellValue(data.get(i).getRegion());
             cell = row.createCell(5);
-            cell.setCellValue(data.get(i).createdDate());
+            cell.setCellValue(data.get(i).getCreatedDate());
         }
 
         data.forEach(e -> {

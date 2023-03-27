@@ -1,6 +1,6 @@
 package com.boot3.data.mapstruct;
 
-import com.boot3.data.dto.response.FruitRecordDTO;
+import com.boot3.data.dto.response.FruitDTO;
 import com.boot3.data.entity.FruitEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
@@ -19,9 +19,9 @@ public interface FruitMapper {
     @Mapping(target="price", expression="java(entity.getPrice())")
     @Mapping(target="region", expression="java(entity.getRegion())")
     @Mapping(target="createdDate", expression="java(entity.getCreatedDate())")
-    FruitRecordDTO toDto(FruitEntity entity);
+    FruitDTO toDto(FruitEntity entity);
 
-    List<FruitRecordDTO> toDtoList(List<FruitEntity> entityList);
+    List<FruitDTO> toDtoList(List<FruitEntity> entityList);
 
 
 

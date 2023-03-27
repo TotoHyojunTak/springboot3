@@ -1,6 +1,6 @@
 package com.boot3.service;
 
-import com.boot3.data.dto.response.FruitRecordDTO;
+import com.boot3.data.dto.response.FruitDTO;
 import com.boot3.data.entity.FruitEntity;
 import com.boot3.data.mapstruct.FruitMapper;
 import com.boot3.data.repository.FruitRepository;
@@ -24,7 +24,7 @@ public class FileService {
 
     private final FruitRepository fruitRepository;
 
-    public List<FruitRecordDTO> downloadExcel() {
+    public List<FruitDTO> downloadExcel() {
         return FruitMapper.INSTANCE.toDtoList(fruitRepository.findAll());
     }
 

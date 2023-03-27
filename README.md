@@ -3,6 +3,11 @@
 ## Tech Spec
 - Springboot 3.0.4
   - Java JDK 17
+- embedded server
+  - Tomcat(기본 내장)
+  - Jetty : 경량 WAS, 적은 메모리를 사용하며 가볍고 속도가 빠름. 하지만, 대규모 트래픽에서는 미권장
+  - Undertow (현재 적용 중). Blocking & Non-Blocking 모두 지원. 대규모 트래픽에서는 Tomcat보다 안정적임
+  - Netty : Async, Event-Driven 방식 넽워크 애플리케이션 프레임워크. Undertow도 Netty 기반. Webflux 사용 시, 기본 내장 WAS로 사용함.
 - Spring Data JPA
 - QueryDSL 5.0.0 (Spring 6, Springboot 3 이상 대응)
 - MapStruct 1.4.2.Final
@@ -23,6 +28,42 @@
 - Spring Cloud 
 - kubernetes (구현 예정)
 - multi database connection (구현 예정)
+- API
+  - RestAPI
+  - Spring for GraphQL : Facebook이 만든 API를 위한 Query 언어
+    - (장점) 단일 요청 주소로 질의한 쿼리 별 대한 응답 결과를 얻을 수 있음
+    - 구성
+      - [root 폴더] .graphqlconfig
+      ```sql
+      {
+        "name": "Graphql-Example",
+        "schemaPath": "src/main/resources/graphql/schema.graphqls",
+        "extensions": {}
+      }
+      ``` 
+      - [src/resources/graphql/schema.graphqls]
+      ```sql
+      type Fruit {
+        seq: ID!
+        name: String!
+        season: String!
+        price: Int!
+        region: String
+      }
+    
+      type Query {
+        getFruit(name: String!): Fruit
+        # Controller에 @QueryMapping 메서드명과 같아야함
+        getFruits: [Fruit]
+      }
+          
+      type Mutation {
+        save(name: String!): Fruit
+        # Controller에 @MutationMapping 메서드명과 같아야함
+      }
+      ```
+    - TEST 방법 (POSTMAN)
+      - 주소를 http://localhost:8888/graphql 로 위 파일에 정의된 내용 모두 Loading 한후 테스트 하면됨 
 - 외부와의 통신
   - RestTemplate (Deprectated)
     ```

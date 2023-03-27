@@ -131,6 +131,10 @@ dependencies {
     implementation 'org.apache.poi:poi:5.2.3' // excel 2007 이전 버전 호환 (HSSFWorkbook, xls)
     implementation 'org.apache.poi:poi-ooxml:5.2.3' // excel 2007 이후 버전 호환 (WSSFWorkbook, xlsx)
 
+
+    // spring for grqphql
+    implementation 'org.springframework.boot:spring-boot-starter-graphql'
+
 }
 
 tasks.named('test') { // :test task 실행시 API문서 생성 Snippet 경로 설정
