@@ -26,6 +26,11 @@ configurations {
         extendsFrom annotationProcessor
     }
 
+    all{
+        // was tomcat 제외
+        exclude module: 'spring-boot-starter-tomcat'
+    }
+
     asciidoctorExtensions // Asciidoctor 의존그룹 지정 -> :asciidoctor task 실행시 내부적으로 그룹 지정
 }
 
@@ -43,6 +48,9 @@ dependencyManagement {
 
 dependencies {
     runtimeOnly 'com.mysql:mysql-connector-j'
+
+    implementation 'org.springframework.boot:spring-boot-starter-undertow' // tomcat 대신 undertow
+
 
     // hikari - connection pool 보완 (enterprise 환경용)
     implementation 'org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4.1:1.16'
