@@ -1,5 +1,5 @@
 ifndef::snippets[]
-:snippets: ../../../build/generated-snippets
+:snippets: build/generated-snippets
 endif::[]
 :doctype: book
 :icons: font
@@ -31,9 +31,9 @@ Introduction : Springboot 3 Back-end API
 | <http://localhost:8888>
 |===
 
-ifndef::snippet[]
-:snippet: ../../../build/generated-snippets
-endif::[]
+// ifndef::snippet[]
+// :snippet: ../../../build/generated-snippets
+// endif::[]
 
 == UserController
 === 회원 전체 목록 조회

@@ -3,7 +3,7 @@ buildscript{
         queryDslVersion="5.0.0"
         mapstructVersion = "1.4.2.Final"
 
-        snippetsDir = file('build/generated-snippets') // restdocs
+        snippetsDir = file("$buildDir/generated-snippets") // restdocs
     }
 }
 
@@ -146,6 +146,10 @@ tasks.named('asciidoctor') { // :asciidoctor task 실행시 Asciidoctor 기능 �
     configurations "asciidoctorExtensions"
     inputs.dir snippetsDir
     dependsOn test
+}
+
+asciidoctor.doFirst {
+    delete file('src/main/resources/static/docs')
 }
 
 // :build task 실행 전에 실행되는 task. index.html 파일을 /src/main/resources/static/doc 으로 복사

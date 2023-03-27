@@ -30,6 +30,7 @@
 - multi database connection (구현 예정)
 - API
   - RestAPI
+  - gRPC : Google이 만든 원격 호출 프로그래밍 (구현 예정)
   - Spring for GraphQL : Facebook이 만든 API를 위한 Query 언어
     - (장점) 단일 요청 주소로 질의한 쿼리 별 대한 응답 결과를 얻을 수 있음
     - 구성

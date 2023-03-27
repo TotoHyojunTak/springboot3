@@ -8,6 +8,7 @@ import com.boot3.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -46,7 +47,7 @@ public class UserController {
 
     @PostMapping("/user")
     @Operation(description = "사용자 등록하기")
-    public void saveUserInfo(@RequestBody UserSaveReqDTO userSaveReqDTO){
+    public void saveUserInfo(@Validated @RequestBody UserSaveReqDTO userSaveReqDTO){
         userService.saveUserInfo(userSaveReqDTO);
     }
 }
