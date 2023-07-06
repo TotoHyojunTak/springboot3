@@ -15,6 +15,8 @@ plugins {
     id 'org.asciidoctor.jvm.convert' version "3.3.2"
     id 'com.google.osdetector' version '1.7.0'
 
+    id 'maven-publish'
+
 }
 
 group = 'com'
@@ -135,6 +137,16 @@ dependencies {
     // spring for grqphql
     implementation 'org.springframework.boot:spring-boot-starter-graphql'
 
+
+    // Websocket
+    implementation 'org.springframework.boot:spring-boot-starter-websocket'
+
+    // thymeleaf
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
+    // mybatis
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter'
+
 }
 
 tasks.named('test') { // :test task 실행시 API문서 생성 Snippet 경로 설정
@@ -198,3 +210,5 @@ sourceSets {
 clean {
     delete file('src/main/generated')
 }
+
+

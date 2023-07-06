@@ -1,5 +1,10 @@
 # Springboot 3 Backend API
 
+## Execute
+java -jar build/libs/boot3-1.0.0.jar --Server.port=9901 --Dspring.profiles.active=local
+
+java -jar build/libs/boot3-1.0.0.jar --Server.port=9900 --Dspring.profiles.active=local
+
 ## Tech Spec
 - Springboot 3.0.4
   - Java JDK 17
@@ -95,7 +100,7 @@
 - File Up/Download 기능 구현
 - SSL/TLS 기반 https API Service 구현
 - Text Editor 기술 구현을 위한 API 구현
-- Web Sockect을 이용한 실시간 채팅 API 구현
+- Websocket을 이용한 실시간 채팅 API 구현
 - Jenkins(Pipeline), SonarQube, Docker, Nginx, K8s를 이용한 CI/CD 구현
 
 # Swagger

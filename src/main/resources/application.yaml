@@ -44,6 +44,11 @@ spring:
       max-file-size: 100MB
       max-request-size: 100MB
 
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
+    cache: false
+
   graphql:
     path: /graphql
     graphiql:
@@ -71,11 +76,12 @@ spring:
       max-age: 1800s
 
 
-#  session:
-#    storage-type: redis
-#  redis:
-#    host: localhost
-#    port: 6379
+  session:
+    storage-type: redis
+  data:
+    redis:
+      host: localhost
+      port: 6379
 #  kafka:
 #    bootstrap-servers: localhost:9092
 #    consumer:
@@ -106,3 +112,34 @@ api:
     client-id: f522O2wr4C9VIqtAQsKU
     client-secret: PEmAsMI4x1
     path: /v1/search/blog.json
+
+---
+
+spring:
+  profiles:
+    active: local
+logging:
+  config: classpath:logback-${spring.profiles.active}.xml
+  level:
+    org: INFO
+    com: DEBUG
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+logging:
+  config: classpath:logback-${spring.profiles.active}.xml
+  pattern:
+    file: "[%d{HH:mm:ss.SSS}][%-5level][%logger.%method:line%line] - %msg%n"
+  file:
+    name: /app/logs/hotel-backend-log.log
+  logback:
+    rollingpolicy:
+      file-name-pattern: "/app/logs/hotel-backend-log.%d{yyyy-MM-dd}.%i"
+      max-history: 30
+  level:
+    org: INFO
+    com: DEBUG
